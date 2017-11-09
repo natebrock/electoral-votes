@@ -1,6 +1,6 @@
 {
   "name": "electoral-votes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node.js module for retrieving a state's electoral votes for a given year.",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "state",
     "election"
   ],
-  "author": "Nate Brock",
+  "author": "Nate Brock <natebrock@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/natebrock/electoral-votes/issues"
