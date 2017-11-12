@@ -1,6 +1,6 @@
 {
   "name": "electoral-votes",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "A node.js module for retrieving a state's electoral votes for a given year.",
   "main": "index.js",
   "scripts": {

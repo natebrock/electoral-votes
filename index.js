@@ -29,7 +29,11 @@ let byYear = function (year, data = evdata) {
 let byState = function (state, data = evdata) {
   state = toArray(state);
   let result = data.filter(s => state.indexOf(s.name) != -1);
+  if(result.length === 1) {
+    return result[0]
+  } else {
   return result;
+  }
 };
 
 
